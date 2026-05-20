@@ -37,19 +37,19 @@ module "s3_bucket" {
 #   allow_users_to_change_password = true
 # }
 
-resource "aws_instance" "web" {
-  ami           = "ami-0c94855ba95c71c99"
-  instance_type = "t2.micro"
-  tags = {
-    Name = "${var.project_name}-web"
-  }
-  # dynamic "ingress" {
-  #   for_each = [80, 443]
-  #   content {
-  #     from_port   = ingress.value
-  #     to_port     = ingress.value
-  #     protocol    = "tcp"
-  #     cidr_blocks = ["0.0.0.0/0"]
-  #   }
-  # }
-}
+# resource "aws_instance" "web" {
+#   ami           = "ami-0c94855ba95c71c99"
+#   instance_type = "t2.micro"
+#   tags = {
+#     Name = "${var.project_name}-web"
+#   }
+#   # dynamic "ingress" {
+#   #   for_each = [80, 443]
+#   #   content {
+#   #     from_port   = ingress.value
+#   #     to_port     = ingress.value
+#   #     protocol    = "tcp"
+#   #     cidr_blocks = ["0.0.0.0/0"]
+#   #   }
+#   # }
+# }
