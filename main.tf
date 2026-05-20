@@ -17,6 +17,7 @@ module "sg" {
   vpc_id        = module.vpc.my_vpc_id
 }
 
+
 module "s3_bucket" {
   source = "terraform-aws-modules/s3-bucket/aws"
   version = "~>5.12.0"
