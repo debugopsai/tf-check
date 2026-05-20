@@ -1,0 +1,8 @@
+.terraform
+terraform.tfstate.d
+AWSCLIV2.pkg
+bucket.hcl
+plantf
+terraform.tfstate.backup
+terraform.tfstate
+tfplan-for-vpc-iam
