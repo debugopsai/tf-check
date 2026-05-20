@@ -29,7 +29,9 @@ terraform {
 provider "aws" {
   region     = "us-east-1"
   alias = "abx"
+  
 }
+
 
 # provider "aws" {
 #   alias      = "us_west_2"
