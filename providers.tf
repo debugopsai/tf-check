@@ -11,14 +11,14 @@ terraform {
   # }
   
   
-  cloud {
-    organization = "remote-hcp"
-    hostname     = "app.terraform.io"
-    workspaces {
-      name = "network-ws"
-    }
+  # cloud {
+  #   organization = "remote-hcp"
+  #   hostname     = "app.terraform.io"
+  #   workspaces {
+  #     name = "network-ws"
+  #   }
 
-  }
+  # }
 
   # backend "local" {
     
