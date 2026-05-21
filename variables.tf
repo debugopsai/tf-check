@@ -12,3 +12,7 @@ variable "iam_user_name" {
   type        = string
   description = "This is the IAM user name"
 }
+
+variable "bucket_name" {
+  type = string
+}
