@@ -18,10 +18,10 @@ module "sg" {
 }
 
 
-# module "s3_bucket" {
-#   source = "terraform-aws-modules/s3-bucket/aws"
-#   version = "~>5.12.0"
-# }
+module "s3_bucket" {
+  source = "terraform-aws-modules/s3-bucket/aws"
+  version = "~>5.12.0"
+}
 
 # module "iam_account" {
 #   source  = "terraform-aws-modules/iam/aws//modules/iam-account"
@@ -59,3 +59,4 @@ module "sg" {
 # resource "aws_s3_bucket" "demo" {
 #   bucket = var.bucket_name
 # }
+
