@@ -13,6 +13,6 @@ variable "iam_user_name" {
   description = "This is the IAM user name"
 }
 
-variable "bucket_name" {
-  type = string
-}
+# variable "bucket_name" {
+#   type = string
+# }
